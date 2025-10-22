@@ -206,4 +206,3 @@ export async function analyzeStyle(_: File | null = null): Promise<StyleAnalysis
   await new Promise((resolve) => setTimeout(resolve, 1500));
   return sampleData;
 }
-
