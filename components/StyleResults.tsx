@@ -330,4 +330,3 @@ export default function StyleResults({ result }: StyleResultsProps) {
     </div>
   );
 }
-
