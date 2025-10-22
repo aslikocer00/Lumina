@@ -52,9 +52,14 @@ export default function StyleResults({ result }: StyleResultsProps) {
             <div>
               <p className="text-xs uppercase tracking-[0.35em] text-stone">
                 Face shape
-            </p>
-            <h2 className="text-2xl font-semibold text-primary">{result.faceShape.label}</h2>
-            <p className="mt-2 text-sm text-gray-600">{result.faceShape.insight}</p>
+              </p>
+              <h2 className="text-2xl font-semibold text-primary">
+                {result.faceShape.label}
+              </h2>
+              <p className="mt-2 text-sm text-gray-600">
+                {result.faceShape.insight}
+              </p>
+            </div>
           </div>
         </div>
 
