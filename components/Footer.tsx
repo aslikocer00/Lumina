@@ -1,8 +1,10 @@
+const year = new Date().getFullYear();
+
 export default function Footer() {
   return (
-    <footer className="border-t border-white/40 bg-white/70 backdrop-blur">
+    <footer className="border-t border-white/60 bg-white/80 backdrop-blur">
       <div className="mx-auto flex max-w-6xl flex-col gap-3 px-6 py-6 text-sm text-gray-500 md:flex-row md:items-center md:justify-between">
-        <p>© {new Date().getFullYear()} StyleAI. Crafted with thoughtful AI.</p>
+        <p className="text-gray-600">© {year} StyleAI. Crafted with thoughtful AI.</p>
         <div className="flex gap-4">
           <a
             href="mailto:hello@styleai.app"

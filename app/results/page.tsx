@@ -35,9 +35,14 @@ export default function ResultsPage() {
 
   return (
     <div className="mx-auto max-w-4xl space-y-10">
-      <div className="rounded-3xl border border-white/30 bg-white/70 p-8 backdrop-blur">
-        <h1 className="text-3xl font-semibold">Your StyleAI Insights</h1>
-        <p className="mt-3 text-sm text-gray-600">{message}</p>
+      <div className="rounded-[32px] border border-white/60 bg-white/80 p-8 shadow-lift backdrop-blur md:p-10">
+        <p className="text-xs uppercase tracking-[0.35em] text-stone">
+          Personalized profile
+        </p>
+        <h1 className="mt-3 text-3xl font-semibold text-primary md:text-4xl">
+          Your StyleAI insights
+        </h1>
+        <p className="mt-4 text-sm text-gray-600 md:text-base">{message}</p>
       </div>
       {result && <StyleResults result={result} />}
     </div>
