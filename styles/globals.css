@@ -7,9 +7,5 @@
 }
 
 body {
-  @apply bg-secondary text-primary font-sans;
-}
-
-a {
-  @apply text-primary;
+  @apply bg-secondary text-primary font-sans antialiased;
 }
