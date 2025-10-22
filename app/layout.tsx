@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "@/styles/globals.css";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
+import PageTransition from "@/components/PageTransition";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -55,7 +56,9 @@ export default function RootLayout({
     <html lang="en" className={inter.variable}>
       <body className="min-h-screen bg-soft-gradient">
         <NavBar />
-        <main className="px-6 md:px-10 lg:px-16 py-12">{children}</main>
+        <main className="px-6 py-10 md:px-12 lg:px-20">
+          <PageTransition>{children}</PageTransition>
+        </main>
         <Footer />
       </body>
     </html>
