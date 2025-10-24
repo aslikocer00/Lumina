@@ -17,6 +17,8 @@ StyleAI is a premium AI stylist experience built with Next.js 14 and Tailwind CS
 
 ## Project Highlights
 
+- **Live Demo**: https://lumina-eosin.vercel.app/
+
 - **Responsive UX**: Optimized for mobile-first browsing with smooth fade transitions between views.  
 - **Premium Styling Language**: Inspired by Apple and Glossier with soft gradients, rounded cards, and elevated typography.  
 - **AI-Like Interactions**: Mocked analysis pipeline mimics asynchronous AI processing with progress feedback.  
