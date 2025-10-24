@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const navLinks = [
+  { href: "/app", label: "App" },
   { href: "/upload", label: "Upload Photo" },
   { href: "/#how-it-works", label: "How It Works" },
   { href: "/#about", label: "About" }
@@ -15,7 +16,7 @@ export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const isActive = (href: string) => {
-    if (href === "/upload") {
+    if (href === "/upload" || href === "/app") {
       return pathname === href;
     }
     return pathname === "/" && href !== "/upload";

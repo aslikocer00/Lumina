@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 360">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf8f3"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </linearGradient>
+    <radialGradient id="accent" cx="10%" cy="10%" r="120%">
+      <stop offset="0%" stop-color="#ffe6f6"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="420" height="360" rx="48" fill="url(#bg)"/>
+  <rect width="420" height="360" rx="48" fill="url(#accent)"/>
+  <path d="M210 86c-58 0-102 44-102 102s44 102 102 102 102-44 102-102-44-102-102-102z" fill="#fff" stroke="#d1d5db" stroke-width="2"/>
+  <path d="M210 126c-30 0-54 24-54 54s24 54 54 54 54-24 54-54-24-54-54-54z" fill="#f8fafc" stroke="#c4c9d4" stroke-width="2"/>
+  <path d="M176 200c18 10 50 10 68 0" fill="none" stroke="#9ca3af" stroke-width="4" stroke-linecap="round"/>
+  <g fill="#0f172a">
+    <circle cx="186" cy="180" r="6"/>
+    <circle cx="234" cy="180" r="6"/>
+  </g>
+  <path d="M137 132l28-28" stroke="#e2e8f0" stroke-width="6" stroke-linecap="round"/>
+  <path d="M283 132l-28-28" stroke="#e2e8f0" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="140" cy="226" r="12" fill="#dbeafe"/>
+  <circle cx="280" cy="226" r="12" fill="#fecdd3"/>
+  <path d="M210 72v20M210 268v20M104 188h20M296 188h20" stroke="#e2e8f0" stroke-width="4" stroke-linecap="round"/>
+</svg>

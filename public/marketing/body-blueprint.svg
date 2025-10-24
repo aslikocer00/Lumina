@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 360">
+  <defs>
+    <linearGradient id="bg-body" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e0f2fe"/>
+    </linearGradient>
+    <linearGradient id="grid-accent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(59,130,246,0.12)"/>
+      <stop offset="100%" stop-color="rgba(59,130,246,0)"/>
+    </linearGradient>
+  </defs>
+  <rect width="420" height="360" rx="48" fill="url(#bg-body)"/>
+  <rect width="420" height="360" rx="48" fill="url(#grid-accent)"/>
+  <g stroke="#bfdbfe" stroke-width="1">
+    <path d="M60 120h300M60 180h300M60 240h300"/>
+    <path d="M120 60v240M180 60v240M240 60v240M300 60v240"/>
+  </g>
+  <path d="M210 84c-32 0-58 26-58 58 0 18-8 36-20 48l38 94h80l38-94c-12-12-20-30-20-48 0-32-26-58-58-58z" fill="#fff" stroke="#cbd5f5" stroke-width="2"/>
+  <path d="M178 192l-10 68h84l-10-68" fill="#e0f2fe"/>
+  <path d="M210 108c-16 0-30 14-30 30s14 30 30 30 30-14 30-30-14-30-30-30z" fill="#eff6ff" stroke="#cbd5f5" stroke-width="2"/>
+  <path d="M180 220h60" stroke="#60a5fa" stroke-width="6" stroke-linecap="round"/>
+  <path d="M176 252h68" stroke="#60a5fa" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="146" cy="148" r="10" fill="#dbeafe"/>
+  <circle cx="274" cy="148" r="10" fill="#bae6fd"/>
+  <path d="M210 72v24M150 90l-16-16M270 90l16-16" stroke="#cbd5f5" stroke-width="4" stroke-linecap="round"/>
+</svg>
